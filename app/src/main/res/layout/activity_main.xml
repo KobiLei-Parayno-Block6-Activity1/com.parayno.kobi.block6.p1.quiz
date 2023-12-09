@@ -7,10 +7,18 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi World!"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Hi Everything"
         tools:layout_editor_absoluteX="231dp"
         tools:layout_editor_absoluteY="360dp" />
 
@@ -29,25 +37,25 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="63dp"
+        android:text="Hello Everything!"
+        tools:layout_editor_absoluteX="49dp"
         tools:layout_editor_absoluteY="360dp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="445dp" />
+        android:text="Hello!"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="437dp" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="236dp"
-        tools:layout_editor_absoluteY="440dp" />
+        android:text="Hi!"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="437dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -72,5 +80,13 @@
         android:text="Hi Everything!"
         tools:layout_editor_absoluteX="150dp"
         tools:layout_editor_absoluteY="197dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="274dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
